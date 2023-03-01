@@ -6,3 +6,9 @@ This repository provides the details of generating medical systematic reviews us
 Reviews from ChatGPT were generated using the web interface.
 
 A subset of outputs have been selected for the domain expert interviews.
+
+## SETUP
+
+Create conda environment from the environment.yml: `conda env create -f environment.yml`
+
+Activate the conda environment: `conda activate llm4msr`
