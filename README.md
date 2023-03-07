@@ -14,18 +14,14 @@ The most recently published Cochrane reviews for each of the 37 topics were coll
 `llm_outputs.csv` includes all the LLM-generated reviews.
 A subset of outputs have been selected for the domain expert interviews. They are available at https://llm4msr.netlify.app/
 
-## CODE FOR GENERATING REVIEWS
+## Code for Generating Reviews
 
-This repository provides the details of generating medical systematic reviews using BioMedLM and Galactica.
+This section provides the details of generating medical systematic reviews using BioMedLM and Galactica. `get_outputs_for_cochrane_titles_galactica_biomedlm.ipynb` includes the code.
 Reviews from ChatGPT were generated using the web interface.
-
-
 
 ### SETUP
 
 Create conda environment from the environment.yml: `conda env create -f environment.yml`
 
 Activate the conda environment: `conda activate llm4msr`
-
-
 
