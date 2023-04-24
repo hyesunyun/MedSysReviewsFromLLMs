@@ -25,10 +25,10 @@ Create conda environment from the environment.yml: `conda env create -f environm
 
 Activate the conda environment: `conda activate llm4msr`
 
-## Website Used for Interview Material
+## Represenative Output Samples (Website)
 
 We created a website which was presented to participants during the interviews. The website includes information on high-level background of large language models and representative samples of outputs generated from LLMs.
 
-The representative samples were used as a starting point of a discussion on the potential uses and harms of LLMs for medical systematic reviews.
+The representative samples were used as a starting point of a discussion with domain experts on the potential uses and harms of LLMs for medical systematic reviews.
 
 The link to the website: https://llm4msr.netlify.app/
