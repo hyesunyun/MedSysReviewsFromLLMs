@@ -19,8 +19,13 @@ A subset of outputs have been selected for the domain expert interviews. They ar
 
 ## Code for Generating Reviews
 
-This section provides the details of generating medical systematic reviews using BioMedLM and Galactica. `get_outputs_for_cochrane_titles_galactica_biomedlm.ipynb` includes the code.
-Reviews from ChatGPT were generated using the web interface.
+This section provides the details of generating medical systematic reviews using BioMedLM and Galactica. Reviews from ChatGPT were generated using the web interface.
+
+The Galactica model can be accessed via [Huggingface](https://huggingface.co/facebook/galactica-6.7b) or `pip install galai`.
+The BioMedLM can be accessed via [Huggingface](https://huggingface.co/stanford-crfm/BioMedLM).
+To install all the dependencies for accessing the models, you can follow the instructions under [SETUP](#setup).
+
+`get_outputs_for_cochrane_titles_galactica_biomedlm.ipynb` includes the code.
 
 ### SETUP
 
