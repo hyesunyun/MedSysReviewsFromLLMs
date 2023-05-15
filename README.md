@@ -33,6 +33,8 @@ Create conda environment from the environment.yml: `conda env create -f environm
 
 Activate the conda environment: `conda activate llm4msr`
 
+Run the jupyter notebook `get_outputs_for_cochrane_titles_galactica_biomedlm.ipynb` to generate outputs for the 128 titles.
+
 ## Represenative Output Samples (Website)
 
 We created a website which was presented to participants during the interviews. The website includes information on high-level background of large language models and representative samples of outputs generated from LLMs.
