@@ -7,12 +7,12 @@ This repository provides the details of generating evidence summaries using LLMs
 ### FULL LIST OF COCHRANE REVIEW TITLES AND LLM-GENERATED REVIEWS
 
 In February 2023, we queried the most recently published titles of Cochrane reviews for each of the 37 Cochrane medical topics and used those titles as prompts to generate the evidence summaries after removing duplicate titles. 
-The topics span a diverse variety of subjects from ``Allergy \& Intolerance'' to ``Health Professional Education''.
-We specifically chose titles of systematic reviews that were published or updated after the latest training dates of the LLMs we considered for this study to mitigate the risk of models having seen the latest versions of reviews in training.
+The topics span a diverse variety of subjects from `Allergy & Intolerance` to `Health Professional Education`. The full list of 37 Cochrane medical topics is shown below.
 
 ![list of Cochrane topics](./Cochrane_Browse_by_Topic_20230223.png)
 
 Please refer to `cochrane_reviews_latest_by_topic_20230223.csv` for a full list of Cochrane review titles used to generate 128 reviews/summaries using LLMs.
+We specifically chose titles of systematic reviews that were published or updated after the latest training dates of the LLMs we considered for this study to mitigate the risk of models having seen the latest versions of reviews in training. We removed any duplicate titles.
 
 `llm_outputs.csv` includes all the LLM-generated reviews.
 A subset of outputs have been selected for the domain expert interviews. They are available at https://llm4msr.netlify.app/
