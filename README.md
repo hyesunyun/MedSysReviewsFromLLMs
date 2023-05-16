@@ -4,7 +4,7 @@
 
 This repository provides the details of generating evidence summaries using LLMs.
 
-### FULL LIST OF COCHRANE REVIEW TITLES AND LLM-GENERATED REVIEWS
+### List of Cochrane Review Titles and LLM-Generated Reviews
 
 In February 2023, we queried the most recently published titles of Cochrane reviews for each of the 37 Cochrane medical topics and used those titles as prompts to generate the evidence summaries after removing duplicate titles. 
 The topics span a diverse variety of subjects from `Allergy & Intolerance` to `Health Professional Education`. The full list of 37 Cochrane medical topics is shown below.
@@ -23,11 +23,11 @@ This section provides the details of generating medical systematic reviews using
 
 The Galactica model can be accessed via [Huggingface](https://huggingface.co/facebook/galactica-6.7b) or `pip install galai`.
 The BioMedLM can be accessed via [Huggingface](https://huggingface.co/stanford-crfm/BioMedLM).
-To install all the dependencies for accessing the models, you can follow the instructions under [SETUP](#setup).
+To install all the dependencies for accessing the models, you can follow the instructions under [Setup section](#setup).
 
 `get_outputs_for_cochrane_titles_galactica_biomedlm.ipynb` includes the code.
 
-### SETUP
+### Setup
 
 Create conda environment from the environment.yml: `conda env create -f environment.yml`
 
