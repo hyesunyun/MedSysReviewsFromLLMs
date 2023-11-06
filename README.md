@@ -42,3 +42,14 @@ We created a website which was presented to participants during the interviews. 
 The representative samples were used as a starting point of a discussion with domain experts on the potential uses and harms of LLMs for medical systematic reviews.
 
 The link to the website: https://llm4msr.netlify.app/
+
+## Citation
+
+```bibtex
+@article{yun2023appraising,
+  title={Appraising the Potential Uses and Harms of LLMs for Medical Systematic Reviews},
+  author={Yun, Hye Sun and Marshall, Iain J and Trikalinos, Thomas and Wallace, Byron C},
+  journal={arXiv preprint arXiv:2305.11828},
+  year={2023}
+}
+```
